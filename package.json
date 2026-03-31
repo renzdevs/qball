@@ -1,0 +1,25 @@
+{
+  "name": "quantumball",
+  "version": "1.0.0",
+  "description": "Quantumball (QBALL) — continuous probabilistic distribution system",
+  "main": "scripts/drawSimulation.js",
+  "scripts": {
+    "simulate": "node scripts/drawSimulation.js",
+    "simulate:single": "node scripts/drawSimulation.js --draws=1",
+    "simulate:stats": "node scripts/drawSimulation.js --draws=1000",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/keccak256": "^5.7.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "license": "MIT"
+}
