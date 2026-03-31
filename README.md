@@ -1,6 +1,6 @@
 # QUANTUMBALL
 
-<img src="qball.png" width="200"/>
+<img src="qballp.png" width="200"/>
 
 **QBALL** — A continuous, high-frequency probabilistic distribution system built on deterministic on-chain entropy.
 
